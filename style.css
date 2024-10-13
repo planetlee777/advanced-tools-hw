@@ -9,6 +9,21 @@ body {
 	max-width: 800px;
 }
 
+@media (max-width: 768px) {
+	h1 {
+		font-size: 48px; /* Smaller font for mobile */
+	}
+	h2 {
+		font-size: 32px; /* Smaller font for mobile */
+	}
+	h3 {
+		font-size: 20px; /* Smaller font for mobile */
+	}
+	p {
+		font-size: 16px; /* Smaller font for mobile */
+	}
+}
+
 h1,
 h2,
 h3 {
